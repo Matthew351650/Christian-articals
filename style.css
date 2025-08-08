@@ -1,35 +1,27 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f9f9f9;
-  color: #333;
-}
-
-header {
+.donate {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  background-color: #fff4e6;
+  padding: 15px;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.tab button {
-  background-color: #e0e0e0;
+.donate-button {
+  background-color: #00c244;
+  color: white;
   border: none;
-  padding: 14px;
-  width: 100%;
-  text-align: left;
+  padding: 10px 20px;
   font-size: 16px;
+  border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 5px;
+  margin-top: 10px;
   transition: background-color 0.3s;
 }
 
-.tab button:hover {
-  background-color: #d5d5d5;
-}
-
-.tabcontent {
-  display: none;
-  padding: 15px;
-  background-color: white;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
+.donate-button:hover {
+  background-color: #009c36;
 }
